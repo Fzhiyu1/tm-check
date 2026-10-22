@@ -1,0 +1,20 @@
+{
+  "name": "tm-check",
+  "version": "0.1.0",
+  "description": "商标局近似检索批量 CLI（ego-browser 驱动）",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build-data": "node scripts/build-homophones.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "tm-check": "bin/tm-check.mjs"
+  },
+  "devDependencies": {
+    "hanzi": "^3.3.0",
+    "pinyin-pro": "^3.29.5"
+  }
+}
